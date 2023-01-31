@@ -1,1 +1,32 @@
+.app {
+  background-color: #228be6;
+  color: #fff;
+  padding: 30px;
+  width: 600px;
+  margin: 100px auto;
+  border-radius: 36px;
+}
 
+.label {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.order_container {
+  background-color: inherit;
+  gap: 50px;
+  justify-content: center;
+}
+
+.order_input {
+  border-style: none;
+  outline: none;
+  padding: 12px;
+  width: 45%;
+  font-size: 16px;
+}
