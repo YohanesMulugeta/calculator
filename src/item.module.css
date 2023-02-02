@@ -1,0 +1,15 @@
+.item_value {
+  background-color: #fff;
+  width: 75px;
+  height: 45px;
+  padding: 4px 8px;
+  align-items: center;
+  justify-content: center;
+
+  color: #000;
+  font-weight: 500;
+}
+
+.item_container {
+  gap: 4px;
+}

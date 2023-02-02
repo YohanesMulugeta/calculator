@@ -17,10 +17,15 @@
   align-items: center;
 }
 
+.column {
+  flex-direction: column;
+}
+
 .order_container {
   background-color: inherit;
   gap: 50px;
   justify-content: center;
+  margin-bottom: 24px;
 }
 
 .order_input {

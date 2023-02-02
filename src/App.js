@@ -1,5 +1,5 @@
-// import Items from "./Items";
-import { useState } from "react";
+import Items from "./Items";
+import { useEffect, useState } from "react";
 import "./App.css";
 
 function App() {
@@ -17,10 +17,11 @@ function App() {
             setValue(e.target.value);
           }}
           id="order"
-          type="text"
+          type="number"
           className="order_input"
         />
       </div>
+      <Items orders={value} />
     </div>
   );
 }
