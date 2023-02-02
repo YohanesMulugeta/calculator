@@ -13,3 +13,15 @@
 .item_container {
   gap: 4px;
 }
+
+@media (max-width: 530px) {
+  .item_value {
+    width: 60px;
+  }
+}
+
+@media (max-width: 444px) {
+  .item_value {
+    width: 47px;
+  }
+} ;

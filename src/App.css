@@ -2,7 +2,7 @@
   background-color: #228be6;
   color: #fff;
   padding: 30px;
-  width: 600px;
+  max-width: 600px;
   margin: 100px auto;
   border-radius: 36px;
 }
@@ -36,8 +36,19 @@
   font-size: 16px;
 }
 
+@media (max-width: 600px) {
+  .app {
+    border-radius: 20px;
+  }
+
+  .label {
+    font-size: 20px;
+  }
+}
+
 @media (max-width: 550px) {
   .app {
-    border-radius: 30px;
+    padding: 10px;
+    border-radius: 10px;
   }
 }
