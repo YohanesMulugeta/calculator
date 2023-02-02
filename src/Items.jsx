@@ -51,6 +51,7 @@ function calculateSizes(order) {
 
 function Items({ orders }) {
   const sizes = calculateSizes(orders);
+  // const [direction, setDirection] = React.useState("row");
 
   const labels = Object.keys(sizes);
 
@@ -68,6 +69,15 @@ function Items({ orders }) {
       </Item>
     ));
   }
+
+  // const bodyObserver = new ResizeObserver((entry) => {
+  //   const width = entry[0].contentRect.width;
+
+  //   if (width <= 400 && direction === "row") setDirection("column");
+  //   if (width > 400 && direction === "column") setDirection("row");
+  // });
+
+  // bodyObserver.observe(document.body);
 
   return (
     <div className={`flex column ${styles.items_container}`}>
